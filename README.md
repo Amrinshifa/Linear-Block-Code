@@ -2,10 +2,11 @@
 # Aim
 Write a simple python program to Generate Matrix, Codeword, Hamming weight, Syndrome matrix and find the error on received codeword using Linear block code. 
 # Tools required
- - Google Colab
- - Python 3
- - Numpy
-   
+Google Colab  
+  Python 3   
+     NumPy
+
+
 # Program
 ```
 import numpy as np
@@ -95,6 +96,7 @@ print(f"The error postion is : " + " ".join(map(str, err)))
 # Correct the error in the received codeword
 add = err + rc
 print(f"The correct codeword is : " + " " .join(map(str,add)))
+Attach the program
 ```
 # Output Waveform
 ```
@@ -159,14 +161,13 @@ Syndrome Matrix
 The error postion is : 0 0 1 0 0 0 0
 The correct codeword is : 1 1 1 0 0 1 0
 ```
-
-![WhatsApp Image 2025-09-22 at 14 00 34_2503c26f](https://github.com/user-attachments/assets/73498122-ac5d-44e4-8dcb-38bdddfa595e)
-![WhatsApp Image 2025-09-22 at 14 00 34_e249f3f3](https://github.com/user-attachments/assets/803d896a-108c-4f1b-825f-b652937eec84)
-![WhatsApp Image 2025-09-22 at 14 00 35_1877fb34](https://github.com/user-attachments/assets/a5ae8b82-15b5-4a79-a160-dea8a8740326)
-
-
+![WhatsApp Image 2025-09-22 at 13 57 47_b909c332](https://github.com/user-attachments/assets/53b171e0-93c4-4429-818e-6bbb9de67f6b)
+![WhatsApp Image 2025-09-22 at 13 57 48_c7fdb7dc](https://github.com/user-attachments/assets/fa5b3459-60b5-4dc3-a395-38649c0af8db)
+![WhatsApp Image 2025-09-22 at 13 57 48_499f435d](https://github.com/user-attachments/assets/e2f949ff-9ff4-4912-b19a-ee55fccd5cb8)
 
 # Results
 
-Thus the python program to Generate Matrix, Codeword, Hamming weight, Syndrome matrix and find the error on received codeword using Linear block code is executed successfully.
+Thus the simple python program to Generate Matrix, Codeword, Hamming weight, Syndrome matrix and find the error on received codeword using Linear block code is done and verified.
 
+```
+# Hardware experiment output waveform.
